@@ -5,5 +5,4 @@ def crazy_strings(a,b)
   puts a
   newB = b.swapcase
   newnewB = newB.gsub "s", "z"
-  newA + " " + newnewB
 end 
